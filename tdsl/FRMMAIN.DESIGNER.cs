@@ -77,9 +77,6 @@
             this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
             this.groupConcrete.SuspendLayout();
             this.groupMainReinf.SuspendLayout();
             this.groupTransverseReinf.SuspendLayout();
@@ -669,45 +666,12 @@
             this.menuStrip1.TabIndex = 35;
             this.menuStrip1.Text = "menuStrip1";
             // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(10, 606);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(500, 18);
-            this.label14.TabIndex = 37;
-            this.label14.Text = "Programmed by: Muhammad Usman Shamsi (M.Engg. NEDUET, Karachi)";
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(10, 628);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(528, 18);
-            this.label15.TabIndex = 38;
-            this.label15.Text = "Distributed as Free Software without WARRANTY under 3-Clause BSD License";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(10, 650);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(385, 18);
-            this.label16.TabIndex = 39;
-            this.label16.Text = "Source Code is availabe at github.com/usmanshamsi/tdsl";
-            // 
             // frmMain
             // 
             this.AcceptButton = this.bttnCalculate;
             this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
-            this.ClientSize = new System.Drawing.Size(1098, 681);
-            this.Controls.Add(this.label16);
-            this.Controls.Add(this.label15);
-            this.Controls.Add(this.label14);
+            this.ClientSize = new System.Drawing.Size(1098, 607);
             this.Controls.Add(this.lblSLmm);
             this.Controls.Add(this.lblSLinch);
             this.Controls.Add(this.lblDLmm);
@@ -804,9 +768,6 @@
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label16;
     }
 }
 
